@@ -1,0 +1,20 @@
+Setting on vs code
+-Live server
+	-Enable full reload on settings
+	-css disable unknown warning
+-Tailwind CSS intellisense
+-Inline fold
+	
+Vs Code terminal commands:
+
+- npx  tailwindcss init -> creates a tailwind config file
+- create directory i.e build and src
+- inside build create index.html
+- configure where sources are i.e content:['./build/*.html']
+- with src create input.css
+	- @tailwind base;
+	- @tailwind components;
+	- @tailwind utilities;
+	
+- npx tailwindcss -i ./src/input.css -o ./build/css/style.css
+- add link to style.css in the index file
